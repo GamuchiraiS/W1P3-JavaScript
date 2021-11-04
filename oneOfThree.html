@@ -1,0 +1,25 @@
+<!DOCTYPE html> 
+<html> 
+<head>
+<script type="text/javascript">
+	var humanDogAge = prompt("Please enter the dog's age (human years): ");
+	var dogAge;
+
+		if (humanDogAge < 0) {
+			window.alert("Please enter a valid number.");
+		}
+
+		else if (humanDogAge <= 2){
+			dogAge = humanDogAge * 10.5;
+		}
+
+		else {
+			dogAge = 21 + (humanDogAge - 2) *4;
+			window.alert("The dog's age in dog years is " + dogAge);
+		}
+		
+</script>
+</head>
+<body>	
+</body>	
+</html>
